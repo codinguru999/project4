@@ -1,0 +1,45 @@
+Outpu for Program1
+
+
+enter the how many number you want to insert7
+enter array3
+6
+-9
+4
+8
+-3
+1
+The two elements whose sum is minimum are 3 and -3
+
+
+
+
+Output for Program2
+
+enter the how many number you want to insert7
+enter array1
+2
+3
+6
+3
+6
+1
+The repeating elements are :
+1
+3
+6
+
+
+OutPut for Program3
+
+
+
+enter the how many number you want to insert5
+enter array3
+5
+7
+8
+3
+enter the numbers you want to find distance3
+7
+Minimum distance between 3 and 7 is 2
