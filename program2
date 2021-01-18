@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main()
+{
+ 
+   int arr_size,j;
+    cout<<"enter the how many number you want to insert";
+    cin>>arr_size;
+    int arr[arr_size];
+	cout<<"enter array";
+	for(j=0;j<arr_size;j++)
+	{
+		cin>>arr[j];	
+	} 
+   
+   
+    // count the frequency
+    for (int i = 0; i < arr_size; i++) {
+        arr[arr[i] % arr_size]
+            = arr[arr[i] % arr_size ] + arr_size;
+       cout<<"\n"<<arr[i];
+    }
+   
+    cout << "The repeating elements are : " << endl;
+    for (int i = 0; i < arr_size; i++) {
+        if (arr[i] >= arr_size * 2) {
+            cout << i << " " << endl;
+        }
+    }
+    return 0;
+}
